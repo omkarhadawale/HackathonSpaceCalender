@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 st.set_page_config(layout='wide')
 
 # Read the HTML file
-with open("tab.html", 'r', encoding='utf-8') as HtmlFile:
+with open("./tab.html", 'r', encoding='utf-8') as HtmlFile:
     source_code = HtmlFile.read()
     
 
