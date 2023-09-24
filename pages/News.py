@@ -2,7 +2,6 @@ import streamlit as st
 import datetime
 import json
 import requests
-from streamlit_calendar import calendar
 import config
 import numpy as np
 import base64
